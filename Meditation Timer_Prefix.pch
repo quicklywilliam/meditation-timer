@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Meditation Timer' target in the 'Meditation Timer' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

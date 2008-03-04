@@ -1,0 +1,57 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = WBTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = chimes; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                exportSession = id; 
+                payPalDonate = id; 
+                play = id; 
+                resizeWindow = id; 
+                setCountUpDown = id; 
+                showAbout = id; 
+                startSession = id; 
+                stopSession = id; 
+                visitFlexTime = id; 
+                visitWebsite = id; 
+                welcomeContinue = id; 
+            }; 
+            CLASS = controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutWindow = NSWindow; 
+                delayChime = NSPopUpButton; 
+                delayMins = NSTextField; 
+                disclosureButton = NSButton; 
+                endChime = NSPopUpButton; 
+                minCount = WBTextField; 
+                periodChime = NSPopUpButton; 
+                periodMins = NSTextField; 
+                progressIndicator = NSProgressIndicator; 
+                progressWindow = NSWindow; 
+                startButton = NSButton; 
+                stopButton = NSButton; 
+                theWindow = NSWindow; 
+                totalSessionMins = NSTextField; 
+                welcomeWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {play = id; startTimer = id; stopTimer = id; }; 
+            CLASS = timer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                minCount = NSTextField; 
+                numMins = NSTextField; 
+                startButton = NSButton; 
+                stopButton = NSButton; 
+                theChime = NSPopUpButton; 
+                theWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
